@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+/* the DEFAULT SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  position: relative;
+}
+
+section {
+  font-weight: 300;
+  color: #2a3039;
+  z-index: 1;
+  position: relative;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+section h1 {
+  font-size: 30px;
+}
+
+
+.ppp{
+  margin-top: 10px;
+  text-align:center;
+  margin: 0 auto;
+  color: rgb(74, 74, 74);
+  font-style: oblique;
+  font-style: bold;
+  strong: 140%;
+  font-family: lato;
+  font-weight: 100;
+  font-size: 20px;
+  width: 80%;
+}
+
+.bxp{
+  margin-top: 10px;
+  text-align:center;
+  margin: 0 auto;
+  color: black;
+  font-style: oblique;
+  font-style: bold;
+  strong: 140%;
+  font-family: lato;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+
+
+.dotnav-right {
+  right: 10px;
+  top: 50%;
+  margin-top: -50px;
+  height: 100px;
+  z-index: 999;
+  position: fixed;
+}
+
+.dotnav {
+  padding: 0;
+  list-style: none;
+  font-size: 0.001px;
+}
+
+.dotnav>li {
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+.dotnav>li:nth-child(n+2) {
+  margin-left: 15px;
+}
+
+.dotnav>li>a {
+  display: inline-block;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #66ccff;
+  vertical-align: top;
+  overflow: hidden;
+  padding: 0;
+  text-indent: -999%;
+}
+
+.dotnav>li>a:hover, .dotnav>li>a:focus {
+  background: #66ccff;
+  outline: none;
+}
+
+.dotnav>li>a:active {
+  background: #66ccff;
+}
+
+.dotnav>li.active>a {
+  background: #66ccff;
+}
+
+.dotnav-vertical>li {
+  display: block;
+  margin-right: 10px;
+}
+
+.dotnav-vertical>li:nth-child(n+2) {
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.awesome-tooltip+.tooltip>.tooltip-inner {
+  background-color: #66ccff;
+  color: #fff;
+  border: 1px solid #66ccff;
+}
+
+.awesome-tooltip+.tooltip.left>.tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #66ccff;
+}
+
+.gif__item .rs {
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.gif__item_content {
+  float: left;
+  position: relative;
+  width: 20%;
+  height: 100%;
+  background-color: #1E1E1E;
+  overflow: hidden;
+}
+
+.gif__item {
+  position: absolute;
+  height: 100%;
+  /* = 100% - 2*5% padding */
+  width: 100%;
+  /* = 100% - 2*5% padding */
+}
+
+.table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+/*  padding: 1em 5%; */
+  margin: 2 auto;
+  font-family: sans-serif;
+}
+
+
+h1, blockquote {
+  font-family: Playball, sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex_container_2 {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.item {
+  margin: 0.5em;
+  flex-basis: 20%;
+  /*This determines each item's width*/
+  flex-grow: 1;
+  /* This makes each item grow to fit the available space. set to 0 to tuen off*/
+}
+
+.item2{
+  margin: 0em;
+  flex-basis: 10%;
+  /*This determines each item's width*/
+  flex-grow: 1;
+  /* This makes each item grow to fit the available space. set to 0 to tuen off*/
+
+}
+
+
+.titlepage img {
+  background-size: contain;
+  background-attachment: scroll;
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  animation: fadeIn 10s;
+
+}
+
+.homepage img {
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  opacity: 100;
+
+}
+
+
+
+
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/*LANDING PAGE*/
+.home {
+  position: relative;
+  background-image: url("images/figure.jpg");
+  display: flex;
+  height: 100vh;
+}
+
+
+/* SECOND PAGE */
+
+.about{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+flex-basis: 20%;
+
+}
+
+.title {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  left: 200px;
+}
+
+.scrollabt {
+    width: 76%;
+    height: 95%;
+    overflow: scroll;
+    position: relative;
+    align-items: center;
+    float:left;
+    padding: 1.2%;
+
+  }
+
+  .welcome {
+  padding-top: 40px;
+  width: 400px;
+  height: 4%;
+  aligned:Center;
+  text-align:center;
+  }
+
+.containerabt {
+  width: 100%;
+  float: left;
+  flex-basis: 5%;
+  /*This determines each item's width*/
+  flex-grow: 1;
+  vertical-align: left;
+
+}
+.Side-Image {
+float: left;
+margin:0px;
+padding-top: 0px;
+}
+
+#about {
+  background:  #ecc6d9;
+
+}
+
+.figure img {
+  box-shadow: none;
+
+}
+
+.figure figcaption {
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 1em;
+  color: white;
+  width: auto;
+}
+
+
+blockquote {
+  width: 85%;
+  margin: 0.2em auto;
+  background: #ddd;
+  font-size: 1.4em;
+  text-align: center;
+  color: #yellow;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+}
+
+
+.tagline {
+  font-family: playball;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+
+/* THRID PAGE */
+
+#Rhoda {
+  background: #ffe000;
+}
+
+.flex_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.ritem{
+  flex-basis: 50%;
+  margin: 1em;
+  flex-grow: 1;
+}
+
+.item {
+  margin: 0.5em;
+  flex-basis: 20%; /*This determines each item's width*/
+  flex-grow: 1; /* This makes each item grow to fit the available space. set to 0 to tuen off*/
+}
+
+.round img {
+  border-radius: 50%;
+}
+
+.story{
+width: 500px;
+}
+
+.Rhoda {
+
+  padding: 1em 10%;
+  font-family: sans-serif;
+
+}
+/*FOURTH PAGE*/
+
+#bgvide {
+  height: 100vh;
+  background-color: black;
+}
+
+#Tayo {
+    background: rgb(15, 172, 147);
+}
+
+.tayo {
+    font-family: sans-serif;
+    padding: 1em 10%;
+    margin: 0px auto;
+}
+
+
+
+/*FIFTH PAGE*/
+
+
+#Michael {
+  background: #e72f3b;
+}
+
+.michael{
+  padding: 5%;
+}
+
+.box {
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+flex-basis: 10%;
+
+}
+
+.txtbox{
+width: 500px;
+margin: 1em;
+
+}
+
+.txtbox2 {
+width: 800px;
+text-align:center;
+align-items:center;
+aligin: center:
+margin: 1em;
+margin: 0 auto;
+
+}
+
+.flex{
+  padding: 1em 20%;
+  flex-basis: 20%;
+}
+
+/* FIFTH PAGE */
+
+#Rebecca {
+  background: #df1163;
+  flex-basis: 20%;
+}
+.rebecca {
+  padding: 1em 10%;
+}
+
+/*-------SIXTH PAGE-------*/
+
+
+#Leonie {
+  background: limegreen;
+  padding: 1em 10%;
+}
+
+.infogrpahic{
+  float: right;
+  margin-right: auto;
+}
+
+/* SEVENTH PAGE*/
+
+#last-page {
+  background: #ecc6d9;
+padding:5%;
+}
+
+
+
+/*------------*/
+
+
+
+footer {
+  background: #fff;
+  font-family: 'Noto Serif', serif;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.74);
+}

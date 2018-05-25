@@ -1,0 +1,38 @@
+/******************************
+PAGE 2
+******************************/
+
+@media screen and (max-width: 480px) {
+
+  .slick {
+    visibility: hidden;
+  }
+
+  .scroll {
+    visibility: hidden;
+  }
+
+
+
+  }
+
+  h2 {
+    margin-top: 50px;
+    margin-left: 20%;
+  }
+
+/*  h4 {
+    visibility: hidden;
+  }
+*/
+  .videohead {
+    float: left;
+    margin-left: 2px;
+    font-size: 40px;
+    margin-top: -50px;
+  }
+
+  #vidcontainer {
+    margin-top: -100px;
+    margin-bottom: 0px;
+  }

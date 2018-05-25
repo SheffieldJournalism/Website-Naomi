@@ -1,0 +1,193 @@
+/******************************
+ABOUT PAGE
+******************************/
+
+
+#para::-webkit-scrollbar {
+  display: none;
+}
+
+
+#landing img {
+  opacity: 0;
+  animation: fadeOut 15s ease;
+}
+
+
+}
+
+.table-cell img{
+  opacity: 1;
+  animation: fadeIn 30s ease;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  100% {opacity: 1;
+  }
+  0% {opacity: 0;
+  }
+}
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+
+.landing {
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100vw;
+  height: 100vh:
+}
+
+.head2{
+  text-align: left;
+  align-items: left;
+  right: 150px;
+
+}
+
+h2 {
+  font-family: serif;
+  font-weight: 100;
+  color; black;
+  font-size: 30px;
+  font-weight: 100;
+text-decoration: underline;
+text-align: left;
+}
+
+
+
+.welcome {
+  margin: 0px;
+  padding-bottom: 3%;
+  text-align: center;
+
+}
+
+
+.scroll2 {
+  flex-basis: 40%;
+  margin: 0.5em;
+  flex-basis: 20%;
+  /*This determines each item's width*/
+  flex-grow: 1;
+  /* This makes each item grow to fit the available space. set to 0 to tuen off*/
+}
+
+
+
+
+.pp{
+  margin-top: 40px;
+  text-align: justify;
+  color: black;
+  font-family: lato;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.container {
+  flex-basis: 70%;
+  float:left;
+  align-items: center;
+}
+
+.scroll {
+    height: 840px;
+    margin-top: -17px;
+    position: center;
+    bottom: 50;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+.scroll2 .Q1 {
+    /*width: 500px;*/
+      height: 150px;
+      overflow: scroll;
+      /*margin-right: 19%;
+      margin-top: -17px;*/
+      padding: 3% 1em;
+      position: relative;
+      bottom: 50;
+      align-items: center;
+}
+
+.scroll2 .Q2 {
+    /*width: 500px;*/
+      height: 150px;
+      overflow: scroll;
+      /*margin-right: 19%;
+      margin-top: -17px;*/
+      padding: 3% 1em;
+      position: relative;
+      bottom: 50;
+      align-items: center;
+
+}
+
+.scroll2 .Q3 {
+    /*width: 500px;*/
+      height: 150px;
+      overflow: scroll;
+    /*  margin-right: 19%;
+      margin-top: -17px;*/
+      padding: 3% 1em;
+      position: relative;
+      bottom: 50;
+      align-items: center;
+
+}
+
+.scroll2 .Q4 {
+    /*width: 500px;*/
+      height: 150px;
+      overflow: scroll;
+      /*margin-right: 19%;
+      margin-top: -17px;*/
+      padding: 3% 1em;
+      position: relative;
+      bottom: 50;
+      align-items: center;
+
+}
+
+.scroll2 .Q5 {
+    /*width: 500px;*/
+      height: 150px;
+      overflow: scroll;
+      /*margin-right: 19%;
+      margin-top: -17px;*/
+      padding: 3% 1em;
+      position: relative;
+      bottom: 50;
+      align-items: center;
+
+}
+
+.scroll2 .Q6 {
+    /*width: 500px;*/
+      height: 150px;
+      overflow: scroll;
+      /*margin-right: 19%;
+      margin-top: -17px;*/
+      padding: 3% 1em;
+      position: relative;
+      bottom: 50;
+      align-items: center;
+
+}
